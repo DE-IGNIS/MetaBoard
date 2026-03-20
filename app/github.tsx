@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { View, Text, TextInput, Image, ActivityIndicator, StyleSheet } from "react-native";
 import React, { useState } from "react";
 import { icons } from "@/constants/icon";

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { View } from "react-native";
 import WeatherCard from "@/components/WeatherCard";
 

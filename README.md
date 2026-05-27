@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# MetaBoard
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Platform](https://img.shields.io/badge/platform-React%20Native-blue)
+![Expo](https://img.shields.io/badge/Expo-SDK%2050%2B-black)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
 
-## Get started
+> A multi-utility React Native app combining everyday tools into one simple, efficient mobile experience.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## About
 
-2. Start the app
+**MetaBoard** is a mobile application built with React Native to explore real-world development patterns.
 
-   ```bash
-   npx expo start
-   ```
+It integrates multiple practical utilities into a single interface, allowing users to:
 
-In the output, you'll find options to open the app in a
+* Check real-time weather updates
+* Search and view GitHub profiles
+* Look up people and topics via Wikipedia
+* Manage a simple exam schedule
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The project emphasizes clean UI, modular architecture, and efficient API integration while remaining lightweight and responsive.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Features
 
-When you're ready, run:
+* **🌦 Weather Updates** – Real-time weather data in a clean interface
+* **🐙 GitHub Profile Search** – Instantly fetch and view user profiles
+* **📚 Wikipedia Search** – Quick lookup for people and topics
+* **📝 Exam Schedule Manager** – Add and manage exam entries
+* **⚡ Lightweight & Fast** – Minimal and efficient design
+
+---
+
+## Tech Stack
+
+* **Framework:** React Native
+* **Runtime / Tooling:** Expo
+* **Language:** JavaScript / TypeScript
+* **APIs:** Weather API, GitHub API, Wikipedia API
+* **State Management:** React Hooks / Context API
+* **Navigation:** React Navigation / Expo Router
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js (v18 or higher)
+* npm or yarn
+* Expo Go (or emulator)
+
+---
+
+### Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/your-username/metaboard.git
+
+# Navigate into the project
+cd metaboard
+
+# Install dependencies
+npm install
+
+# Start the app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code using your device to run the app.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Environment Setup
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Create a `.env` file:
 
-## Join the community
+```env
+WEATHER_API_KEY=your_api_key_here
+```
 
-Join our community of developers creating universal apps.
+Use `react-native-dotenv` or similar to load environment variables.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Roadmap
+
+* UI/UX refinements
+* Offline support for schedules
+* API response caching
+* Dark mode
+* Improved error handling
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+See the [LICENSE](./LICENSE) file for details.
+
+---

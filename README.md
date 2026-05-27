@@ -1,10 +1,5 @@
 # MetaBoard
 
-![Platform](https://img.shields.io/badge/platform-React%20Native-blue)
-![Expo](https://img.shields.io/badge/Expo-SDK%2050%2B-black)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-success)
-
 > A multi-utility React Native app combining everyday tools into one simple, efficient mobile experience.
 
 ---

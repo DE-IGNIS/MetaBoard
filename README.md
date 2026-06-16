@@ -25,7 +25,6 @@ The project emphasizes clean UI, modular architecture, and efficient API integra
 * **🐙 GitHub Profile Search** – Instantly fetch and view user profiles
 * **📚 Wikipedia Search** – Quick lookup for people and topics
 * **📝 Exam Schedule Manager** – Add and manage exam entries
-* **⚡ Lightweight & Fast** – Minimal and efficient design
 
 ---
 
@@ -33,10 +32,8 @@ The project emphasizes clean UI, modular architecture, and efficient API integra
 
 * **Framework:** React Native
 * **Runtime / Tooling:** Expo
-* **Language:** JavaScript / TypeScript
+* **Language:** JavaScript, TypeScript
 * **APIs:** Weather API, GitHub API, Wikipedia API
-* **State Management:** React Hooks / Context API
-* **Navigation:** React Navigation / Expo Router
 
 ---
 
@@ -67,18 +64,6 @@ npx expo start
 ```
 
 Scan the QR code using your device to run the app.
-
----
-
-## Environment Setup
-
-Create a `.env` file:
-
-```env
-WEATHER_API_KEY=your_api_key_here
-```
-
-Use `react-native-dotenv` or similar to load environment variables.
 
 ---
 

@@ -14,25 +14,25 @@ A quick visual walkthrough of the application.
       <b>Weather Feature</b><br/>
       <img src="./WeatherScreen.jpg" width="300"/>
     </td>
-  </tr>
-
-  <tr>
     <td align="center">
       <b>GitHub Profile Fetch Feature</b><br/>
       <img src="./GitHubScreen.jpg" width="300"/>
     </td>
+  </tr>
+
+  <tr>
     <td align="center">
       <b>Wikipedia Search Feature</b><br/>
       <img src="./WikiScreen.jpg" width="300"/>
     </td>
-  </tr>
-
-  <tr>
     <td align="center">
       <b>Exam Schedule Feature</b><br/>
       <img src="./ExamSchedulerScreen.jpg" width="300"/>
     </td>
   </tr>
+
+  <!-- <tr>
+  </tr> -->
 </table>
 
 ---

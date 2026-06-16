@@ -109,7 +109,7 @@ const WeatherCard = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Today's Weather</Text>
+      <Text style={styles.heading}>Weather Today</Text>
 
       <View style={styles.tempBlock}>
         <Text style={styles.temperature}>
